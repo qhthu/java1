@@ -1,0 +1,48 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+  background:rgba(0, 0, 0, 0.199) url("https://previews.123rf.com/images/pinkyone/pinkyone1607/pinkyone160700009/61333498-pastel-theme-mood-board-with-fashion-accessories-bags-sunglasses-scarf-for-girls-white-rustic-wooden.jpg");
+  background-blend-mode: darken;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body form {
+	
+  background: #ad5b5b9a;
+  width: 500px;
+  
+	border-radius: 10px;
+  padding: 50px ;
+  
+}
+
+
+body form > input {
+  margin: 15px 0;
+  width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+body form button {
+  width: 100px;
+  padding: 10px;
+  letter-spacing: 1px;
+  background: #fff;
+  border-radius: 10px;
+}
+body form button:hover {
+	
+  color: #ad5b5b9a;
+}
